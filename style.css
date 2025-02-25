@@ -1,0 +1,109 @@
+body {
+  font-family: "Arial", sans-serif; /* Changed font */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Improved text color */
+}
+
+header {
+  background-color: #fff; /* White header */
+  padding: 1rem;
+  position: fixed; /* Fixed header */
+  width: 100%;
+  z-index: 100; /* Ensure header is on top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1.5rem; /* Increased spacing */
+}
+
+nav a {
+  text-decoration: none;
+  color: #555; /* Slightly darker link color */
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+  color: #007bff; /* Blue on hover */
+}
+
+section {
+  padding: 4rem 2rem; /* Increased padding */
+}
+
+#hero {
+  background-image: url("your-image.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color for hero */
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#hero button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#hero button:hover {
+  background-color: #0056b3;
+}
+
+#about {
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+#jobs {
+  background-color: #fff; /* White background */
+}
+
+.job {
+  border: 1px solid #eee; /* Lighter border */
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+  transition: transform 0.2s ease;
+}
+
+.job:hover {
+  transform: translateY(-2px);
+}
+
+#contact {
+  background-color: #f0f0f0; /* Light gray background */
+}
