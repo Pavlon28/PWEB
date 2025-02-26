@@ -154,7 +154,7 @@ section {
 footer {
   background-color: #333;
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -187,8 +187,8 @@ footer {
 }
 
 .about-column img {
-  width: 50px; /* Adjust icon size */
-  height: 50px;
+  width: 70px; /* Adjust icon size */
+  height: 70px;
   margin-bottom: 1rem;
 }
 
@@ -222,7 +222,7 @@ section h2 {
 }
 
 footer .footer-logo {
-  width: 100px;
+  width: 200px;
   height: auto;
   margin-top: 1rem;
 }
