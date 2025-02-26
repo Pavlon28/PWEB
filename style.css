@@ -286,3 +286,21 @@ footer .footer-logo {
     text-align: center;
   }
 }
+
+.mascot {
+  width: 150px;
+  position: fixed; /* Fixed position */
+  bottom: 20px;
+  right: 20px;
+  animation: gentle-wave 3s infinite alternate;
+  z-index: 100; /* Ensure mascot is above other elements */
+}
+
+@keyframes gentle-wave {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
