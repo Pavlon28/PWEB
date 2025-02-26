@@ -289,11 +289,11 @@ footer .footer-logo {
 
 .mascot {
   width: 150px;
-  position: fixed; /* Fixed position */
+  position: fixed;
   bottom: 20px;
   right: 20px;
   animation: gentle-wave 3s infinite alternate;
-  z-index: 100; /* Ensure mascot is above other elements */
+  z-index: 100;
 }
 
 @keyframes gentle-wave {
@@ -301,6 +301,13 @@ footer .footer-logo {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(10px);
+    transform: translateY(15px);
+  }
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .mascot {
+    width: 100px; /* Adjust the size as needed for mobile */
   }
 }
