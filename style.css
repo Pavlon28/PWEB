@@ -266,3 +266,23 @@ footer .footer-logo {
 .button:hover {
   background-color: #0056b3;
 }
+
+/* Styles for larger screens (desktops/laptops) */
+@media (min-width: 768px) {
+  /* Styles for screens wider than 768px */
+  .job {
+    /* Example: Adjust job card layout for larger screens */
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Styles for smaller screens (tablets/mobiles) */
+@media (max-width: 767px) {
+  /* Styles for screens narrower than 768px */
+  .job {
+    /* Example: Stack job card elements vertically for smaller screens */
+    display: block;
+    text-align: center;
+  }
+}
