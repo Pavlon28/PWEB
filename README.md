@@ -31,15 +31,26 @@ This landing page is designed to help job seekers find their dream job. It featu
   - Features an image placeholder for adding relevant contact icons.
 
 - **Footer:** Contains social media icons linking to the company's profiles.
+
   - Displays the company logo and copyright information.
   - Provides a consistent and professional closing to the landing page.
 
+- **Interactive Mascot:** Animated mascot that triggers a pop-up message when clicked.
+  - Provides a glimpse of upcoming features, like a chat functionality.
+  - Built using CSS and HTML, showcasing efficient coding practices.
+
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap 5
+
 ## Screenshots
 
-![Header and Hero Section](img/Screenshot.png)
-![About Section and Jobs](img/Screenshot1.png)
-![Contact and Footer](img/Screenshot2.png)
+![Header and Hero Section](src/img/Screenshot.png)
+![About Section and Jobs](src/img/Screenshot1.png)
+![Contact and Footer](src/img/Screenshot2.png)
 
 ## Live Demo
 
-https://job-search-seven-ecru.vercel.app/#jobs
+https://pweb-git-main-pavlon28s-projects.vercel.app
