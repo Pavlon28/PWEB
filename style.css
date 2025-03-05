@@ -347,3 +347,8 @@ footer .footer-logo {
   text-decoration: none; /* Remove underline from anchor */
   color: #333; /* Set color for close button */
 }
+
+#about .about-img {
+  width: 70px;
+  height: 70px;
+}
