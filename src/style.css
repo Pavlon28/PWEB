@@ -1,17 +1,15 @@
 body {
-  font-family: "Arial", sans-serif; /* Consistent font for the entire body */
-  margin: 0;
-  padding: 0;
+  font-family: "Arial", sans-serif;
   color: #333;
 }
 
 header {
-  background-color: #fff; /* White header */
+  background-color: #fff;
   padding: 1rem;
-  position: fixed; /* Fixed header */
+  position: fixed;
   width: 100%;
-  z-index: 100; /* Ensure header is on top */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -28,13 +26,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #555; /* Slightly darker link color */
+  color: #555;
   font-weight: 500;
-  transition: color 0.3s ease; /* Smooth color transition */
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #007bff; /* Blue on hover */
+  color: #007bff;
 }
 
 section {
@@ -42,26 +40,20 @@ section {
 }
 
 #hero {
-  background-image: url("img/hero.webp"); /* Replace with your image URL */
+  background-image: url("img/hero.webp");
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white; /* Text color for hero */
+  color: white;
   text-align: center;
 }
 
 .hero-content {
-  position: relative;
-  z-index: 2;
   max-width: 800px;
   margin: 0 auto;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0)
-  ); /* Gradient background */
   padding: 20px;
   border-radius: 10px;
 }
@@ -158,16 +150,15 @@ footer {
   text-align: center;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-}
-
 .social-icons button {
   background: none;
   border: none;
   margin: 0 0.5rem;
-  cursor: pointer;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
 }
 
 .social-icons img {
@@ -344,8 +335,8 @@ footer .footer-logo {
   right: 10px;
   font-size: 20px;
   cursor: pointer;
-  text-decoration: none; /* Remove underline from anchor */
-  color: #333; /* Set color for close button */
+  text-decoration: none;
+  color: #333;
 }
 
 #about .about-img {
