@@ -1,5 +1,12 @@
 import socket
+import sys
 import urllib.parse
+import re
+
+def extract_links(html):
+    """Extracts up to 10 links from the search results page."""
+    links = re.findall(r'<a.*?href="(http[^"]+)".*?>(.*?)</a>', html)
+    return links[:10]  # Return first 10 links
 
 def search_web(query):
     search_url = f"duckduckgo.com/?q={urllib.parse.quote(query)}"
@@ -17,7 +24,12 @@ def search_web(query):
             response += chunk
 
     body = response.decode(errors="ignore").split("\r\n\r\n", 1)[1]  # Remove headers
-    print(body)  # This will print raw HTML (Step 5 will extract links)
+    links = extract_links(body)
+
+    print("\nTop 10 Search Results:")
+    for i, (link, text) in enumerate(links, 1):
+        print(f"{i}. {text}: {link}")
+
 
 def fetch_url(url):
     if url.startswith("http://"):
